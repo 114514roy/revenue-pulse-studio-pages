@@ -13,7 +13,7 @@
 <body>
 <h1>Revenue Pulse Studio Support</h1>
 <h2>What Revenue Pulse Studio Does</h2>
-<p>Revenue Pulse Studio turns a local App Store sales export into a weekly revenue pulse and Markdown report. It is built for indie iOS developers who want a quick weekly readout without rebuilding a spreadsheet.</p>
+<p>Revenue Pulse Studio turns a local sales export into a weekly revenue pulse and Markdown report. It is built for indie mobile developers who want a quick weekly readout without rebuilding a spreadsheet.</p>
 <h2>Supported Import Format</h2>
 <p>Import or paste CSV/TSV text with these columns:</p>
 <ul>
@@ -24,18 +24,30 @@
 <li><code>Proceeds</code></li>
 <li><code>Currency of Proceeds</code> (optional; defaults to USD when omitted)</li>
 </ul>
-<p>The parser also accepts common App Store Connect-style aliases.</p>
+<p>The parser also accepts common developer sales report aliases:</p>
+<ul>
+<li><code>Begin Date</code></li>
+<li><code>Product SKU</code></li>
+<li><code>App Name</code></li>
+<li><code>Units Sold</code></li>
+<li><code>Developer Proceeds</code></li>
+<li><code>Currency of Proceeds</code></li>
+</ul>
 <h2>Purchase And Restore</h2>
-<p>Markdown export is a $9.99 one-time purchase. It is not a subscription. Use Restore Purchase if you reinstall the app or move to another device using the same Apple ID.</p>
+<p>Markdown export is a $9.99 one-time purchase. It is not a subscription. Use <code>Restore purchase</code> if you reinstall the app or move to another device with the same purchase account.</p>
 <h2>Troubleshooting</h2>
 <ul>
 <li>If import fails, confirm the file is UTF-8 or UTF-16 text.</li>
 <li>If the pulse looks empty, confirm the export includes at least two weeks of rows.</li>
 <li>If a currency error appears, import one proceeds currency at a time.</li>
-<li>If export is locked after purchase, tap Restore Purchase.</li>
+<li>If export is locked after purchase, tap <code>Restore purchase</code>.</li>
+<li>If the file exporter closes without saving, choose a local Files destination and try again.</li>
+<li>Use <code>Save locally</code> only when you want this device to remember the current full report text.</li>
+<li>Use <code>Clear local report</code> to remove stored report text from this device.</li>
+<li>Use <code>Load sample</code> to restore the bundled demo report.</li>
 </ul>
 <h2>Privacy</h2>
-<p>The current release runs locally, does not require an account, does not use a server, and does not connect to App Store Connect.</p>
+<p>The current release runs locally, does not require an account, does not use a server, and does not connect to external developer portals.</p>
 <h2>Contact</h2>
 <p>Email: ygc36062@gmail.com</p>
 </body>
