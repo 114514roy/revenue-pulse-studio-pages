@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>App Store Launch Readiness Pack</title>
+  <meta name="description" content="A Markdown checklist pack plus offline generator for indie iOS developers preparing App Store submission or resubmission.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">App Store Launch Readiness Pack</a>
+    <nav>
+      <a href="#what">What you get</a>
+      <a href="#generator">Generator</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">For indie iOS developers</p>
+        <h1>Catch App Store launch blockers before submission.</h1>
+        <p class="lede">A Markdown checklist pack plus offline generator that turns a simple app profile into a release-readiness packet, blocker summary, support page draft, and privacy page draft.</p>
+        <div class="hero-actions">
+          <a class="button" href="#what">View contents</a>
+          <a class="button secondary" href="support.html">Contact support</a>
+        </div>
+      </div>
+      <figure class="preview">
+        <img src="assets/02-blocker-summary.svg.png" alt="Generated blocker summary preview">
+      </figure>
+    </section>
+
+    <section id="what" class="section">
+      <h2>What you get</h2>
+      <div class="grid">
+        <article>
+          <h3>Launch checklists</h3>
+          <p>Review local code, generated artifacts, screenshots, public pages, StoreKit, and account-side readiness before submission.</p>
+        </article>
+        <article>
+          <h3>Offline generator</h3>
+          <p>Use a local JSON profile to generate a release-readiness review, blocker summary, support draft, and privacy draft.</p>
+        </article>
+        <article>
+          <h3>Publishing boundaries</h3>
+          <p>Separate local readiness from App Store Connect, tax, banking, pricing, upload, and final review submission actions.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="generator" class="section split">
+      <div>
+        <h2>Designed for local-first release prep</h2>
+        <p>The pack performs no network requests, payment actions, App Store Connect mutations, signing, upload, or review submission. It helps you decide what is ready and what still needs account-owner verification.</p>
+      </div>
+      <pre><code>node tools/generate-release-packet.js \
+  --profile examples/app-profile.json \
+  --out dist/focus-ledger</code></pre>
+    </section>
+
+    <section class="section">
+      <h2>Included files</h2>
+      <ul class="file-list">
+        <li>Main App Store launch-readiness checklist</li>
+        <li>Screenshot review checklist</li>
+        <li>Local-vs-account readiness guide</li>
+        <li>Support and privacy page copy templates</li>
+        <li>Fictional filled release review example</li>
+        <li>Offline release packet generator</li>
+      </ul>
+    </section>
+
+    <section class="section notice">
+      <h2>Important boundary</h2>
+      <p>This product does not submit your app, operate App Store Connect, provide legal or tax advice, or guarantee App Review approval.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>App Store Launch Readiness Pack</span>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy</a>
+  </footer>
+</body>
+</html>
