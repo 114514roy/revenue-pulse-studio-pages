@@ -8,8 +8,11 @@ deployment, payment setup, analytics setup, or checkout publication.
 
 - Product page: `index.html`
 - Free tool page: `why-is-my-app-not-selling.html`
+- Diagnosis guide page: `ai-coded-app-not-selling.html`
 - Support page: `support.html`
 - Privacy page: `privacy.html`
+- Sitemap: `sitemap.xml`
+- IndexNow key file: `7d6a2f4b8c9e41d3a5b0c6e7f8a9d012.txt`
 - Static CSS: `styles.css`
 - Product preview image: `assets/triage-preview.svg`
 
@@ -24,11 +27,11 @@ or an under-construction page.
 
 ## Deployment Record
 
-- Platform: pending
-- Repository: pending
+- Platform: GitHub Pages
+- Repository: `114514roy/revenue-pulse-studio-pages`
 - Path: `ai-coded-app-revenue-triage-pack/`
-- Commit: pending
-- Verified on: pending
+- Commit: use the latest pushed Pages repository commit from git readback.
+- Verified on: 2026-06-23
 
 ## Fast Deploy Options
 
@@ -41,15 +44,17 @@ Use any one of these after explicit publish authorization:
 
 ## Pre-Submission Check
 
-- [ ] Public URL loads over HTTPS.
-- [ ] Product page explains what is being sold.
-- [ ] Free tool page is reachable.
-- [ ] Support page is reachable.
-- [ ] Privacy page is reachable.
-- [ ] Checkout CTA is either a real authorized payment link or clearly marked
+- [x] Public URL loads over HTTPS.
+- [x] Product page explains what is being sold.
+- [x] Free tool page is reachable.
+- [x] Diagnosis guide page is reachable.
+- [x] Sitemap and IndexNow key file are reachable.
+- [x] Support page is reachable.
+- [x] Privacy page is reachable.
+- [x] Checkout CTA is either a real authorized payment link or clearly marked
   as a placeholder for click-path testing.
-- [ ] Page does not say "under construction".
-- [ ] Page does not use `example.com` as the submitted business website.
+- [x] Page does not say "under construction".
+- [x] Page does not use `example.com` as the submitted business website.
 - [ ] Privacy page is updated before adding analytics, forms, or payment intake.
 
 ## Business Description
