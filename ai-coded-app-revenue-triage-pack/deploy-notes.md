@@ -1,0 +1,63 @@
+# Website Deploy Notes
+
+Purpose: publish a measurable public probe page for the AI-Coded App Revenue
+Triage Pack. This file is a deployment plan only. It does not perform
+deployment, payment setup, analytics setup, or checkout publication.
+
+## What This Site Contains
+
+- Product page: `index.html`
+- Free tool page: `why-is-my-app-not-selling.html`
+- Support page: `support.html`
+- Privacy page: `privacy.html`
+- Static CSS: `styles.css`
+- Product preview image: `assets/triage-preview.svg`
+
+## Recommended URL Field
+
+Use a deployed public HTTPS URL such as:
+
+`https://114514roy.github.io/revenue-pulse-studio-pages/ai-coded-app-revenue-triage-pack/`
+
+Do not submit a local path, `localhost`, `example.com`, an empty landing page,
+or an under-construction page.
+
+## Deployment Record
+
+- Platform: pending
+- Repository: pending
+- Path: `ai-coded-app-revenue-triage-pack/`
+- Commit: pending
+- Verified on: pending
+
+## Fast Deploy Options
+
+Use any one of these after explicit publish authorization:
+
+- GitHub Pages: commit the `site/` folder to a public Pages repository under
+  `ai-coded-app-revenue-triage-pack/`.
+- Cloudflare Pages: upload the `site/` folder or connect a Git repository.
+- Netlify Drop: drag the `site/` folder into Netlify Drop.
+
+## Pre-Submission Check
+
+- [ ] Public URL loads over HTTPS.
+- [ ] Product page explains what is being sold.
+- [ ] Free tool page is reachable.
+- [ ] Support page is reachable.
+- [ ] Privacy page is reachable.
+- [ ] Checkout CTA is either a real authorized payment link or clearly marked
+  as a placeholder for click-path testing.
+- [ ] Page does not say "under construction".
+- [ ] Page does not use `example.com` as the submitted business website.
+- [ ] Privacy page is updated before adding analytics, forms, or payment intake.
+
+## Business Description
+
+Use:
+
+I sell self-serve digital checklists, templates, and examples for solo builders
+who used AI coding tools to create iOS apps and need a structured way to review
+their App Store listing, screenshots, IAP boundary, positioning, and next
+7-day fix plan. The product does not operate App Store Connect, run ads, submit
+apps, provide legal advice, or guarantee revenue.
