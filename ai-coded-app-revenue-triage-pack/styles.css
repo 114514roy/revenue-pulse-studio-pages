@@ -125,6 +125,16 @@ h3 {
   border: 1px solid var(--accent);
 }
 
+.button.tertiary {
+  color: var(--ink);
+  background: var(--soft);
+}
+
+.inline-link {
+  color: var(--accent);
+  font-weight: 750;
+}
+
 .boundary {
   max-width: 620px;
   margin-top: 18px;

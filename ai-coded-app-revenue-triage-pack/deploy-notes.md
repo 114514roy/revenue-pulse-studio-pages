@@ -15,6 +15,8 @@ deployment, payment setup, analytics setup, or checkout publication.
 - IndexNow key file: `7d6a2f4b8c9e41d3a5b0c6e7f8a9d012.txt`
 - Static CSS: `styles.css`
 - Product preview image: `assets/triage-preview.svg`
+- GitHub issue template: `.github/ISSUE_TEMPLATE/ai-coded-app-triage.yml` in
+  the Pages repository.
 
 ## Recommended URL Field
 
@@ -53,6 +55,8 @@ Use any one of these after explicit publish authorization:
 - [x] Privacy page is reachable.
 - [x] Checkout CTA is either a real authorized payment link or clearly marked
   as a placeholder for click-path testing.
+- [x] Public intake links go to a GitHub issue template and privacy copy states
+  submissions are public.
 - [x] Page does not say "under construction".
 - [x] Page does not use `example.com` as the submitted business website.
 - [ ] Privacy page is updated before adding analytics, forms, or payment intake.

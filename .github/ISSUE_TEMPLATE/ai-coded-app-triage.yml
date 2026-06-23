@@ -1,0 +1,40 @@
+name: AI-coded app triage interest
+description: Publicly submit an App Store link if you want the triage workflow.
+title: "AI-coded app triage: "
+labels:
+  - ai-coded-app-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public issue. Only submit information you are comfortable making public.
+
+        Do not include App Store Connect credentials, private analytics, payment data, legal documents, customer data, or non-public screenshots.
+  - type: input
+    id: app-store-url
+    attributes:
+      label: Public App Store URL
+      description: Paste the public App Store product page or TestFlight public link if it is safe to share.
+      placeholder: "https://apps.apple.com/app/..."
+    validations:
+      required: true
+  - type: dropdown
+    id: main-problem
+    attributes:
+      label: Main problem
+      options:
+        - No downloads or weak exposure
+        - Views but no paid unlocks
+        - IAP or paid boundary unclear
+        - App Review trust or listing quality
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: public-notes
+    attributes:
+      label: Public notes
+      description: Keep this short and public-safe. One or two sentences is enough.
+      placeholder: "The app is live, but I cannot tell whether the problem is keywords, screenshots, or the paid unlock."
+    validations:
+      required: false
