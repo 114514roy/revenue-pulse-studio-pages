@@ -9,6 +9,7 @@ deployment, payment setup, analytics setup, or checkout publication.
 - Product page: `index.html`
 - Free tool page: `why-is-my-app-not-selling.html`
 - Diagnosis guide page: `ai-coded-app-not-selling.html`
+- Paywall guide page: `iap-paywall-not-converting.html`
 - Support page: `support.html`
 - Privacy page: `privacy.html`
 - Sitemap: `sitemap.xml`
@@ -50,6 +51,7 @@ Use any one of these after explicit publish authorization:
 - [x] Product page explains what is being sold.
 - [x] Free tool page is reachable.
 - [x] Diagnosis guide page is reachable.
+- [x] Paywall guide page is reachable.
 - [x] Sitemap and IndexNow key file are reachable.
 - [x] Support page is reachable.
 - [x] Privacy page is reachable.
